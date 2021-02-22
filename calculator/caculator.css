@@ -1,0 +1,38 @@
+.calc{
+    display: flex;
+    flex-wrap: wrap;
+    height:600px;
+}
+
+.display{
+    width:100%;
+    height:33.3333333%;
+
+}
+.numberone{
+    width:100%;
+    height:33.3333333%;
+}
+.numbertwo{
+    width:100%;
+    height:33.3333333%;
+}
+.plus{
+    width:50%;
+    height:16.66666%;
+}
+.minus{
+    width:50%;
+    height:16.66666%;
+}
+.divide{
+    width:50%;
+    height:16.66666%;
+}
+.multiply{
+    width:50%;
+    height:16.66666%;
+}
+
+
+
