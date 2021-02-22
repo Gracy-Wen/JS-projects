@@ -1,0 +1,77 @@
+body{
+    display: grid;
+    grid-template-rows: 9fr;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-areas: 
+    "left middle right";
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.left{
+    grid-area: left;
+}
+
+.middle{
+    grid-area: middle;
+
+}
+
+.right{
+    grid-area: right;
+}
+
+.guestScore{
+    background-color: beige;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+.guestPenalty{
+    background-color: bisque;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+}
+.round{
+    background-color: burlywood;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+}
+.homeScore{
+    background:beige;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+}
+.homePenalty{
+    background-color: bisque;
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+}
+
+.score{
+    background-color: white;
+    width: 15rem;
+    height: 7rem;
+}
+
+.penalty{
+    background-color: white;
+    width: 15rem;
+    height: 7rem;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Javascript</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="scoreboard.css">
+
+</head>    
+   <body>
+
+    <!-- 
+    <button onclick="minusScore()">- 1</button>
+    <button onclick="addGoals()">+ 1</button>
+    <button onclick="minusGoals()">+ 1</button>
+    <button onclick="addPeriod()">+ 1</button>
+    <button onclick="addPenalityName()">penality list</button>
+    <button onclick="removePenalityName()">+ </button> -->
+
+    <div class="left">
+        <div class="guestScore">Ｇuest
+            <button onclick="gScore()">+ 1</button>
+            <button onclick="gScoreMinus()">- 1</button>
+            <div class="score" id="gscore">0</div>
+        </div>
+        <div class="guestPenalty">Penalty
+            <input id="Penalty" type="text">
+            <div class="penalty" id="gpenalty"></div>
+            <button onclick="gPenalty()">add</button>        
+        </div>
+    </div>
+    <div class="middle">
+        <div class="round">round
+            <div class="rr" id="r">1</div>
+            <button  onclick="round()">+ 1</button>
+        </div>
+        
+    </div>
+    <div class="right">
+        <div class="homeScore">Home
+            <button onclick="hScore()">+ 1</button>
+            <button onclick="hScoreMinus()">- 1</button>
+            <div class="score" id="hscore">0</div>
+        </div>
+        <div class="homePenalty">Penalty
+            <input id="hPenalty" type="text">
+            <div class="penalty" id="hpenalty"></div>
+            <button onclick="homePenalty()">add</button>
+        </div>
+    </div>
+
+    <script src="scoreboard.js"></script>
+
+   </body>
+           
+
