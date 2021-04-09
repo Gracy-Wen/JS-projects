@@ -1,0 +1,19 @@
+.invisible{
+    display:none; 
+}
+img{
+    height:700px;
+    width: 1200px;
+    background-color:black;
+    padding:10px;
+}
+.text{
+    font-size: x-large;
+}
+button{
+    width: 200;
+    height: 100;
+}
+.questions{
+    text-align:center; 
+}
